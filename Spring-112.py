@@ -481,7 +481,7 @@ class compression:
                                                 sda10=Equal_info_between_of_the_cirlce_of_the_file[0:16]
                                                 Deep5 = int(sda10, 2)
                                                 Deep5=Deep5+2+80
-                                                Deep4=Deep5-1
+                                                Deep4=Deep5-1-80
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                 Deep7=Deep5-2-80
